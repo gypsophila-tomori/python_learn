@@ -1,0 +1,15 @@
+classmate = ['Bob','Tom','Jack','Tomori']
+print(classmate)
+a=len(classmate)
+print(a)
+print(classmate[0])
+print(classmate[-1])
+print(classmate[-2])
+classmate.append('Admin')
+print(classmate)
+classmate.insert(1, 'Guest')
+print(classmate)
+classmate.pop(0)
+print(classmate)
+classmate[0]='User'
+print(classmate)
