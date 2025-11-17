@@ -13,3 +13,6 @@ classmate.pop(0)
 print(classmate)
 classmate[0]='User'
 print(classmate)
+
+classmate2 = ('Tomori', 'Gypsophia', 'Admin')
+#不可修改,tuple结构
