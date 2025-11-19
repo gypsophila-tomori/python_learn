@@ -1,2 +1,4 @@
 from my_fun import my_abs
-print(my_abs(-10))
+from my_fun import check
+a = input("input a number: ")
+print(my_abs(a))
