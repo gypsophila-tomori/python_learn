@@ -1,0 +1,5 @@
+print(abs(100))
+print(abs(-20))
+c = max(12, 20, -5, 30)
+print(c)
+print("============I am a line============\n")
