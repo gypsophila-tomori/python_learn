@@ -26,10 +26,11 @@ while count <= 2:
     count = count + 1
 print("===========I am a line============\n")
 
-n = 1
+n = 0
 while n <= 100:
-    if n > 10:
-        break
-    print(n,"\n")
     n = n + 1
+    if n % 2 == 0:
+    #    break
+        continue
+    print(n,"\n")
 
