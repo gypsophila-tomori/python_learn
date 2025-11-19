@@ -9,4 +9,4 @@ print(s)
 d.pop('Michael')
 print(d)
 #dict的key必须是不可变对象
-#dict的key必须是不可变对象
+#Python中，字符串、整数等都是不可变的，因此，可以放心地作为key。而list是可变的，就不能作为key
