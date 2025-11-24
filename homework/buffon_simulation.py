@@ -29,7 +29,7 @@ if __name__ == "__main__":
     L = float(L_str)
     D = float(D_str)
 
-    trails_counts = [1000, 1000, 50_000, 100_000, 100_000_000]
+    trails_counts = [1000, 1000, 50_000, 100_000]
 
     print(f"针长(L):{L},线距(D):{D}\n")
 
