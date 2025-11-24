@@ -7,8 +7,8 @@ def my_abs(x):
     else:
         return -x
 
-def nop():
-    pass
+def nop():          #空函数
+    pass        
 
 def move(x, y, step, angle=0):
     nx = x + step * math.cos(angle)
@@ -21,3 +21,9 @@ def power(x, n = 2):
         s = s * x
         n = n - 1
     return s
+
+def enroll(name, gender, age = 6, city = 'Xi An'):
+    print('name:', name)
+    print('gender:', gender)
+    print('age:', age)
+    print('city:', city)
